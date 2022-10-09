@@ -1,0 +1,85 @@
+﻿.PageDefault
+{
+    background-color:black;
+    margin:5px 8px 3px 5px;
+    color:gold;
+    font-family:MS Gothic;
+    font-size:large;
+        }
+
+.NavBar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.NavBar div{
+    display:inline-flex;
+    align-content:center;
+    text-align:center;
+}
+    .NavBar div div {
+        display: inline-flex;
+        float: left;
+        align-content:center;
+        text-align:center;
+    }
+        .NavBar div div {
+            display: block;
+            align-content: center;
+            padding: 14px 60px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+            
+        .NavBar div div a:hover {
+                color: goldenrod;
+            }
+        a
+        {
+            color:gold;
+            text-decoration:none;
+        }
+.center {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.Box {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    font-family:Verdana;
+    border-radius:30px;
+}
+.Text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.CardImage {
+    width:200px;
+    height:100px;
+    padding:5px;
+    margin:5px;
+    border-radius:30px;
+}
+button
+{
+    align-self:center;
+    background-color:gold;
+    color:black;
+    height:50px;
+    width:100px;
+    padding:10px;
+    margin:10px;
+
+}
+
+       
